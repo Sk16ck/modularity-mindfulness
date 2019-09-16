@@ -4,28 +4,35 @@
   <meta charset="utf-8">
   <title>Rock Gardens</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/css/modules.css">
-  <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/type.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="grid">
   <header>
-    <h1><i lang="ja">枯山水</i></h1>
-    <h2>Rock Garden</h2>
+    <div class="grid">
+      <!-- The title of the page -->
+      <div class="unit grid-middle">
+        <h1><i lang="ja">枯山水</i><br>Rock Gardens</h1>
+      </div>
 
-    <nav class="unit">
-      <ul class="list-group-inline">
-        <li><a href="#">Viewing</a></li>
-        <li><a href="#">Gravel</a></li>
-        <li><a href="#">Symbolism</a></li>
-      </ul>
-    </nav>
+      <!-- Navigation links; Viewing, Gravel Symbolism -->
+      <nav class="unit grid-middle">
+        <ul class="unit grid-middle list-group-inline">
+          <li><a href="#">Viewing</a></li>
+          <li><a href="#">Gravel</a></li>
+          <li><a href="#">Symbolism</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner Img -->
+      <div class="unit">
+        <img class="s-1 m-1 l-1 img-flex" src="images/banner.svg" alt="">
+      </div>
+
+    </div>
   </header>
-</div>
 </body>
 </html>
