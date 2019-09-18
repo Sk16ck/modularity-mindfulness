@@ -5,21 +5,27 @@
   <title>Rock Gardens</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="grid">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
+
+  <header id="header" role="banner">
+    <div class="grid grid-middle">
       <!-- The title of the page -->
-      <div class="unit logo grid-middle xs-1 s-1 m-1 l-1-4 pad-t-1-2 pad-b-1-2 gutter-1-4">
+      <div class="unit logo text-center xs-1 s-1 m-1 l-1-4 pad-t-1-2 pad-b-1-2 gutter-1-4">
         <h1><i lang="ja">枯山水</i><br>Rock Gardens</h1>
       </div>
 
       <!-- Navigation links; Viewing, Gravel Symbolism -->
-      <nav class="unit grid-middle xs-1 s-1 m-1 l-1-4">
+      <nav id="nav" role="navigation" class="unit text-center xs-1 s-1 m-1 l-1-4">
         <ul class="unit list-group-inline">
           <li><a href="#">Viewing</a></li>
           <li><a href="#">Gravel</a></li>
@@ -33,7 +39,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main id="main" role="main">
     <div class="grid">
       <div class="unit text-center pad-t-1-2 pad-b-1-2 gutter">
         <i lang="ja" class="exa">自然の親密な本質を模倣し、人生の真の意味を発見する。</i>
@@ -45,6 +51,8 @@
         <img class="img-flex" src="images/viewing.svg" alt="">
         <i lang="ja">閲覧</i>
         <p>Viewing</p>
+        <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
+        <!-- Button here -->
       </div>
       <!-- Closing of Grid Div -->
     </div>
