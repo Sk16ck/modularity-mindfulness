@@ -1,9 +1,36 @@
 html {
   font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
+  text-decoration-color: #000;
 }
 
 *, *::before, *::after {
+}
+
+.btn {
+  color: #000;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  text-decoration-color: #0084a6;
+  border-color: #8bc9d9;
+}
+
+.btn:hover {
+  border-color: #005e76;
+  color: #005e76;
+  background-color: #0084a6;
+}
+
+a {
+  color: #8bc9d9;
+  text-decoration-color: #0084a6;
+}
+
+a:hover {
+  color: #005e76;
+  text-decoration-color: #0084a6;
 }
 
 @media only screen and (min-width: 60em) {
