@@ -33,5 +33,12 @@ a:hover {
   text-decoration-color: #005e76;
 }
 
+nav a {
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+
 @media only screen and (min-width: 60em) {
 }
