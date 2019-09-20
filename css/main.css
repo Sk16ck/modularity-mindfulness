@@ -24,7 +24,7 @@ html {
 }
 
 a {
-  color: #8bc9d9;
+  color: #005e76;
   text-decoration-color: #0084a6;
 }
 
@@ -33,12 +33,22 @@ a:hover {
   text-decoration-color: #005e76;
 }
 
-nav a {
+.nav a {
   text-decoration: none;
-  border-bottom-style: solid;
-  border-width: 1px;
+  border-bottom: 1px solid #8bc9d9;
 }
 
+.nav a:hover {
+  border-color: #005e76;
+}
+
+section {
+  border-color: #e2e2e2;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
 
 @media only screen and (min-width: 60em) {
 }
