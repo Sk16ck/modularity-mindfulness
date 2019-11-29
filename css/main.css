@@ -7,6 +7,10 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.logo {
+  text-align: center;
+}
+
 .btn {
   color: #000;
 }
@@ -14,7 +18,7 @@ html {
 .btn-ghost {
   background-color: #fff;
   text-decoration-color: #0084a6;
-  border-color: #8bc9d9;
+  border: .1em solid #8bc9d9;
 }
 
 .btn:hover {
@@ -33,19 +37,33 @@ a:hover {
   text-decoration-color: #005e76;
 }
 
+.quote {
+  border-top: .1em solid #e2e2e2;
+  border-bottom: .1em solid #e2e2e2;
+}
+
+.nav {
+  text-align: center;
+}
+
 .nav a {
   text-decoration: none;
-  border-bottom: 1px solid #8bc9d9;
+  border-bottom: .1em solid #8bc9d9;
+  color: #005e76;
 }
 
 .nav a:hover {
-  border-color: #005e76;
+  color: #005e76;
+  border-color: #0084a6;
 }
 
-section {
-  border-color: #e2e2e2;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-top-width: 1px;
-  border-top-style: solid;
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 }
