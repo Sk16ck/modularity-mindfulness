@@ -1,10 +1,10 @@
 html {
   font-family: "Noto Sans", sans-serif;
-  font-family: "Noto Sans Japanese", sans-serif;
   text-decoration-color: #000;
 }
 
-*, *::before, *::after {
+.font-jp {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .btn {
@@ -48,7 +48,4 @@ section {
   border-bottom-style: solid;
   border-top-width: 1px;
   border-top-style: solid;
-}
-
-@media only screen and (min-width: 60em) {
 }
